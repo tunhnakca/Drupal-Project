@@ -1,7 +1,7 @@
 # Drupal Project
 
 ## Project Info
-- There are custom themes and module in this project.
+There are custom themes and module in this project.
 
 ### Themes Info
 #### Staj Theme
