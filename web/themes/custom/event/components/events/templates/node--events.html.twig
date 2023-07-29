@@ -1,0 +1,45 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+{{ attach_library('event/events') }}
+
+{% if content %}
+	<div{{attributes.addClass('node-events').addClass('container')}}>
+    <div class="row d-flex align-items-center event-title-box">
+      <div class="col-md-6">
+        {{content.field_events_images}}
+      </div>
+      <div class="col-md-6 event-title">
+        {{content.field_events_title}}
+        {{content.field_events_date}}
+        {{content.field_events_location}}
+      </div>
+    </div>
+    <div class="row event-bottom">
+      <div class="col-md-9 event-bottom-main">
+        {{content.field_events_description}}
+        {{content.field_events_schedule}}
+        {{content.field_events_foot_detail}}
+      </div>
+      <div class="col-md-3 event-bottom-aside">
+        {{content.field_events_free}}
+        {{content.field_events_price}}
+        {{content.field_events_category}}
+        {{content.field_events_speakers}}
+        {{content.field_events_participant_limit}}
+        {{content.field_events_food_service}}
+      </div>
+    </div>
+  </div>
+{% endif %}

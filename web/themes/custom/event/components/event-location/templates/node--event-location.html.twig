@@ -1,0 +1,36 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+
+{{ attach_library('event/event-location') }}
+
+{% if content %}
+	<div{{attributes}}>
+		<div class="container location-container">
+			<div class="location-info">
+                {{content.field_event_location_title}}
+                {{content.field_event_location_web_address}}
+                {{content.field_event_location_email}}
+                {{content.field_event_location_telephone}}
+                {{content.field_event_location_contact_prs}}
+                {{content.field_event_location_address}}
+            </div>
+            {{content.field_geo_location}}
+		</div>
+        <div class="container gallery-container">
+            <h2>Gallery</h2>
+            {{content.field_event_location_gallery}}
+        </div>
+	</div>
+{% endif %}
