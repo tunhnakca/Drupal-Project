@@ -1,0 +1,25 @@
+@import "global";
+
+body {
+    background-color: $body-bg;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.footer img {
+    width: 30%;
+    height: auto;
+}
+
+.header .row {
+    background-color: white;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}

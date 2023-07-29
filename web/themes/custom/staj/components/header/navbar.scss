@@ -1,0 +1,27 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+
+nav li a:link,
+nav li a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  color: #007aff;
+  transition: all 0.3s;
+}
+
+nav li {
+    font-weight: 600;
+    color: #007aff
+}
+
+nav li a:hover,
+nav li a:active {
+  text-decoration: none;
+  text-decoration: underline;
+  font-weight: 600;
+  color: #000000
+}

@@ -1,0 +1,57 @@
+.location-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f1f3f5;
+  align-items: center;
+}
+
+.location-info {
+  padding: 16px;
+}
+
+.location-info div:first-child {
+  font-size: 32px;
+  font-weight: 600;
+  color: #e54220;
+  word-spacing: -0.5px;
+}
+
+.location-info div:nth-child(5)::before {
+  display: inline;
+  font-weight: 500;
+  content: "Contact Person:   ";
+}
+
+.location-info div:nth-child(5) {
+  display: inline;
+}
+
+.location-info div:nth-child(4) {
+  margin-bottom: 16px;
+}
+
+.location-info div:nth-child(6) {
+  margin-top: 16px;
+}
+
+.gallery-container {
+  padding: 64px 0;
+  background-color: #f1f3f5;
+}
+
+.gallery-container h2 {
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+  word-spacing: -0.5px;
+}
+
+.gallery-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=event-location.css.map */
