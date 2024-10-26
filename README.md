@@ -1,18 +1,22 @@
 # Drupal Project
 
-## Project Info
-There are custom themes and module in this project.
+This project involves custom themes and modules created for the Drupal CMS.
 
-### Themes Info
-#### Staj Theme
-- Theme name: staj
-- Theme folder: web/themes/custom/staj
-#### Event Theme
-- Theme name: event
-- Theme folder: web/themes/custom/event
+## Themes
+- **Staj Theme**
+  - Folder: `web/themes/custom/staj`
+  
+- **Event Theme**
+  - Folder: `web/themes/custom/event`
 
-### Modules Info
-#### Custom Module 1 Module
-- Module name: custom_module_1
-- Theme folder: web/modules/custom/custom_module_1
+## Modules
+- **Custom Module 1**
+  - Folder: `web/modules/custom/custom_module_1`
+
+## Technologies Used
+- **Languages**: 
+  - Twig
+  - PHP
+  - SCSS
+
 
