@@ -19,4 +19,5 @@ This project involves custom themes and modules created for the Drupal CMS.
   - PHP
   - SCSS
 
+## Images
 
