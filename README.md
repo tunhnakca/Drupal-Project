@@ -20,4 +20,6 @@ This project involves custom themes and modules created for the Drupal CMS.
   - SCSS
 
 ## Images
+![Event theme homepage screenshot](event_homepage.png)
+Image of the homepage in the Event theme
 
